@@ -1,0 +1,8 @@
+aws ec2 run-instances  \
+  --image-id $AMI_ID \
+  --region us-west-1 \
+  --count 1 \
+  --key-name testauto \
+  --security-group-ids $SECURITY_GROUP_ID \
+  --instance-type t2.micro \
+  --subnet-id $SUBNET

@@ -1,0 +1,16 @@
+{
+  "name": "stg",
+  "description": "",
+  "cookbook_versions": {
+
+  },
+  "json_class": "Chef::Environment",
+  "chef_type": "environment",
+  "default_attributes": {
+    "airflow": {
+      "homedir": "/home/default"
+    }
+  },
+  "override_attributes": {
+  }
+}
